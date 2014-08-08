@@ -19,6 +19,7 @@ public class Heapsort {
 	//the root is always the max item
 	//extract the max and exchange with the last unsorted element
 	//do heapify from the first to the last unsorted element then
+	//With max heap, the sorted array is in non decreasing order. 
 	public static void heapsort(int[] a){
 		if(a==null) return;
 		buildHeap(a);
